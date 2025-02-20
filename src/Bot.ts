@@ -18,6 +18,7 @@ export class Bot {
 
       this.sock = makeWASocket({
         auth: state,
+        browser: ['Windows', 'Chrome', '11'],
         printQRInTerminal: true, // Aktifkan QR Code di terminal
       });
 
